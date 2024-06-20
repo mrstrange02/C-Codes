@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int i,x; 
+float f; 
+float p;
+printf("enter integer value\n");
+scanf("%d",&i);
+printf("enter float value\n");
+scanf("%f",&f);
+p=i; // implicit conversion 
+printf("implicit value is %lf\n",p); // int to float
+x= (int) f; // Explicit conversion 
+printf("Explicit value is %d\n",x); // float to int
+}      
